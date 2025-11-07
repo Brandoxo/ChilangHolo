@@ -28,7 +28,6 @@ public/nitro-react/
 public/build/
 
 # Caché y logs
-storage/
 bootstrap/cache/*.php
 *.log
 
