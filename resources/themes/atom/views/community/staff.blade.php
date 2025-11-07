@@ -41,31 +41,31 @@
 
             <div class="px-2 text-sm dark:text-gray-200 space-y-4">
                 <p>
-                    {{ __('The :hotel staff team is one big happy family, each staff member has a different role and duties to fulfill.', ['hotel' => setting('hotel_name')]) }}
+                    {{ __('Aquí en :hotel, nuestro equipo de personal es una gran familia feliz, cada miembro del personal tiene un papel y deberes diferentes que cumplir.', ['hotel' => setting('hotel_name')]) }}
                 </p>
 
                 <p>
-                    {{ __('Most of our team usually consists of players that have been around :hotel for quite a while, but this does not mean we only recruit old & known players, we recruit those who shine out to us!', ['hotel' => setting('hotel_name')]) }}
+                    {{ __('La mayoría de nuestro equipo suele estar formado por jugadores que han estado en :hotel durante bastante tiempo, pero esto no significa que solo reclutemos jugadores antiguos y conocidos, reclutamos a aquellos que se destacan para nosotros.', ['hotel' => setting('hotel_name')]) }}
                 </p>
             </div>
         </x-content.content-section>
 
         <x-content.content-section icon="hotel-icon" classes="border dark:border-gray-900">
             <x-slot:title>
-                {{ __('Apply for staff') }}
+                {{ __('Aplicar para Staff') }}
             </x-slot:title>
 
             <x-slot:under-title>
-                {{ __('How to join the staff team', ['hotel' => setting('hotel_name')]) }}
+                {{ __('Cómo unirse al equipo de staff', ['hotel' => setting('hotel_name')]) }}
             </x-slot:under-title>
 
             <div class="px-2 text-sm dark:text-gray-200 space-y-4">
                 <p>
-                    {{ __('Every now and then staff applications may open up. Once they do we always make sure to post a news article explaining the process - So make sure you keep an eye out for those in you are interested in joining the :hotel staff team.', ['hotel' => setting('hotel_name')]) }}
+                    {{ __('De vez en cuando, las solicitudes de personal pueden abrirse. Una vez que lo hagan, siempre nos aseguramos de publicar un artículo de noticias explicando el proceso. Así que asegúrate de estar atento a eso si estás interesado en unirte al equipo de staff de :hotel.', ['hotel' => setting('hotel_name')]) }}
                 </p>
 
                 <p>
-                    {!! __('You can occasionally also look at the :startTag Staff application page :endTag which will show you all of our current open positions.', ['startTag' => '<a href="/community/staff-applications" class="underline">', 'endTag' => "</a>"]) !!}
+                    {!! __('También puedes consultar la :startTag página de solicitudes de personal :endTag que mostrará todas nuestras posiciones abiertas actuales.', ['startTag' => '<a href="/community/staff-applications" class="underline">', 'endTag' => "</a>"]) !!}
                 </p>
             </div>
         </x-content.content-section>

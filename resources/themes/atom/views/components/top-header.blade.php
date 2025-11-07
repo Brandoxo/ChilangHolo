@@ -32,7 +32,7 @@
                     id="administrationDropdown"
                     data-dropdown-toggle="administration-dropdown"
                     class="h-10 text-sm font-semibold text-red-700 flex items-center gap-x-1 ml-5 md:ml-0">
-                    {{ __('Administration') }}
+                    {{ __('Administración') }}
 
                     <x-icons.chevron-down />
             </button>

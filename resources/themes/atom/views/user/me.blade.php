@@ -9,9 +9,9 @@
             <div
                 class="py-2 px-2 relative flex justify-center items-center rounded text-sm font-semibold dark:text-gray-300 bg-[#e9b124] dark:border-gray-700">
                 <div class="absolute bg-[#e9b124] w-6 h-6 -right-1 rotate-45 invisible lg:visible"></div>
-                <img src="{{ asset('/assets/images/icons/online-friends.png') }}" alt="{{ __('Online Friends') }}"
+                <img src="{{ asset('/assets/images/icons/online-friends.png') }}" alt="{{ __('Amigos en Línea') }}"
                     class="inline-flex mr-2 mb-1" style="max-width: 24px; max-height: 24px">
-                <span class="relative text-white h-100">{{ __('Online Friends') }}</span>
+                <span class="relative text-white h-100">{{ __('Amigos en Línea') }}</span>
             </div>
 
             <div class="flex-1 pl-2 h-100 flex relative justify-center sm:justify-start items-center gap-2">

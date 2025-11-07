@@ -127,7 +127,7 @@ class WebsiteSettingsSeeder extends Seeder
             ],
             [
                 'key' => 'housekeeping_url',
-                'value' => 'https://hk.example.com',
+                'value' => 'http://atomhk.test:81',
                 'comment' => 'The subdomain which the HK is hosted on',
             ],
             [
